@@ -395,8 +395,8 @@ class BrightnessApplet(Gtk.Window):
         
         # Vertical scale (slider)
         self.scale = Gtk.Scale(orientation=Gtk.Orientation.VERTICAL)
-        self.scale.set_range(5, 100)
-        self.scale.set_inverted(True)  # 100 at top, 5 at bottom
+        self.scale.set_range(1, 100)
+        self.scale.set_inverted(True)  # 100 at top, 1 at bottom
         self.scale.set_value(self.config_manager.config['last_brightness'])
         self.scale.set_digits(0)
         self.scale.set_value_pos(Gtk.PositionType.BOTTOM)
