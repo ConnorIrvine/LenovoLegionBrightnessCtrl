@@ -1,6 +1,6 @@
 # Legion Brightness Control TLDR
 
-I had been having a lot of backlight brightness issues on linux with my laptop and I realized that the issue has to do with nvidia optimus. Whether in nvidia performance or on demand mode, the brightness controls by default control the nvidia backlight. This does not work since the laptop routes its display through the igpu seemingly no matter what on linux (I have not figured out a way to setup advanced optimus)
+I had been having a lot of backlight brightness issues on linux with my laptop and I realized that the issue has to do with nvidia optimus. Whether in nvidia performance or on demand mode, the brightness controls by default control the nvidia backlight. This does not work since the laptop routes its display through the igpu seemingly no matter what on linux (I have not figured out a way to setup advanced optimus).
 
 This app has been quickly thrown together to make it more simple to run the brightnessctl commands required by the workaround I found (manually setting the intel backlight via the terminal). It uses GTK3 and provides a quick context menu with brightness options that I use frequently with the ability to open it up and set a manual brightness.
 
