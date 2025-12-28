@@ -166,7 +166,7 @@ class SystemTrayApplet:
         menu = Gtk.Menu()
         
         # Quick brightness options
-        for brightness in [100, 80, 60, 50, 40, 20]:
+        for brightness in [100, 80, 67, 50, 40, 20]:
             item = Gtk.MenuItem(label=f"Set {brightness}%")
             item.connect("activate", self.set_quick_brightness, brightness)
             menu.append(item)
