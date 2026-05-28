@@ -6,8 +6,6 @@ This app has been quickly thrown together to make it more simple to run the brig
 
 It should automatically detect your intel backlight maximum brightness but I have added the ability in settings to set it manually. Part of the install process will run a script that will setup passwordless operation using sudo. If you do not want to setup passwordless operations there is a setting to prompt a password with GUI every time if you so choose and you never have to run this script. The script does tell you exactly where the config is created for easy uninstall if you so choose.
 
-I do not want to mess around with important files so I will not be programming an uninstaller until I get far more comfortable with linux.
-
 Tested on Lenovo Legion 7i Gen 10 i9 14900HX with NVIDIA RTX 4070 with Linux Mint 22.2. Battery impact not tested yet.
 
 ## Features
